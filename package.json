@@ -9,5 +9,8 @@
   "author": "Ophir LOJKINE (original code posted by Sebastien Lorber on stackoverflow)",
   "license": "Apache",
   "keywords": ["react-component", "contenteditable", "editable", "html", "react"],
-  "repository": {"type": "git", "url": "https://github.com/lovasoa/react-contenteditable.git"}
+  "repository": {"type": "git", "url": "https://github.com/lovasoa/react-contenteditable.git"},
+  "browserify": {
+    "transform": ["babelify"]
+  }
 }
